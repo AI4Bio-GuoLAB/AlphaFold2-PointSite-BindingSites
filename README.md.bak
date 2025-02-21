@@ -6,7 +6,7 @@ This repository contains binding site predictions for the human proteome as dete
 
 The initial dataset consisted of 20,504 protein structures, each associated with a unique UniProt ID. To ensure quality, structures with disordered regions or those lacking defined ligand-binding pockets were excluded. The refined dataset comprises 12,195 high-quality protein structures.
 
-- Folder containing predicted binding site information: `HumanProteome-AF2-PointSite-BindPredict`. The files in this folder have the .dat extension, and each file contains information about predicted binding sites for specific proteins. Each row in the files is composed of four columns. The first three numbers represent the x, y, and z coordinates of the binding site center. The fourth column indicates the binding site number for that specific protein, as some proteins may have more than one predicted binding site.  
+- Folder containing predicted binding site information: `HumanProteome-AF2-PointSite-BindPredict`
 - List of retained UniProt IDs: `Protein_Uniprot_ID.txt`
 
 ## Reverse Docking Pipeline
